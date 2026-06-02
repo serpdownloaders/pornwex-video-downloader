@@ -1,0 +1,219 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/pornwex-downloader",
+  "serply_link": "https://serp.ly/pornwex-downloader",
+  "app_name": "Pornwex Video Downloader",
+  "short_description": "Download & Save Pornwex Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Pornwex Downloader gives you a browser-based way to look for downloadable media on supported Pornwex video pages. Open a Pornwex video page, allow the player to load, and start playback if the stream is not visible yet. Then use the in-player download button, extension popup, or right-click menu to scan for media candidates.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/pornwex-downloader-fullscreen-01-f40fd9caef.webp",
+    "https://apps.serp.co/media/optimized-products/pornwex-downloader-fullscreen-02-1894c6be5d.webp",
+    "https://apps.serp.co/media/optimized-products/pornwex-downloader-fullscreen-03-b13b203833.webp",
+    "https://apps.serp.co/media/optimized-products/pornwex-downloader-fullscreen-04-4197b5484b.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "How do I download a Pornwex video?",
+      "answer": "Open a supported Pornwex video page, let the player load, start playback if needed, and use the player download button, popup, or right-click menu to scan for available media."
+    },
+    {
+      "question": "Does the downloader work on every Pornwex page?",
+      "answer": "Not guaranteed. The extension matches pornwex.tv and www.pornwex.tv, but some pages may use media patterns outside the current detector."
+    },
+    {
+      "question": "What formats can it detect?",
+      "answer": "The extension looks for direct MP4 and HLS-style candidates when Pornwex exposes them to the browser page or player."
+    },
+    {
+      "question": "Why would detection return no results?",
+      "answer": "The player may not have exposed the stream yet, or the page may use a pattern the detector does not recognize. Start playback and try again."
+    },
+    {
+      "question": "Where are downloads saved?",
+      "answer": "Files are organized under a Pornwex download folder in your browser's default download location."
+    },
+    {
+      "question": "Does this send the media URL to a remote service?",
+      "answer": "No. Media detection and processing happen within the browser extension workflow. Only authentication and update checks use external services."
+    },
+    {
+      "question": "How do I get more than 3 free downloads?",
+      "answer": "Sign in with your email to activate the trial. Purchase a license from the product page for unlimited downloads."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Purpose-built matching for pornwex.tv and www.pornwex.tv",
+    "Player download button, popup, and right-click entry points",
+    "Direct MP4 and HLS candidate handling when the page exposes media",
+    "Organized downloads under a Pornwex folder",
+    "Email OTP activation with 3 free trial downloads",
+    "Player download button attached to the supported video player area",
+    "Extension popup for reviewing detected media candidates",
+    "Right-click menu labeled Download Pornwex Video on page and video contexts",
+    "Direct MP4 candidate detection from video tags, metadata, and page resources",
+    "HLS stream detection for M3U8-style media exposed by the player",
+    "Quality labels inferred from runtime metadata or URL hints when available",
+    "In-page download manager showing progress and status",
+    "Organized downloads saved under a Pornwex folder",
+    "GitHub release update checks for the latest version",
+    "Offscreen processing for stream concatenation and file creation"
+  ],
+  "content": {
+    "why": [
+      "Pornwex video pages often load their player dynamically, hiding the actual media URL until playback starts. This makes it harder to find a simple save-video link or copy the stream address directly from the page source. External downloader sites add extra steps, requiring you to paste a URL somewhere else and wait for a remote service to process it.",
+      "Pornwex Downloader keeps the entire workflow inside your browser. It matches the Pornwex domain, waits for the player to expose the media, and checks the page for available video sources. You can review detected options, pick the quality you want, and save the file directly from the same tab you are already using. No copy-paste, no external paste boxes, just a browser extension that works alongside the page."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Pornwex and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Open your browser and navigate to a Pornwex video page on pornwex.tv or www.pornwex.tv.",
+      "Wait for the page to load and the player to render completely.",
+      "Click the play button on the player to start video playback so the stream becomes active.",
+      "Look for the download button that appears near the player controls.",
+      "Click the download button to open the candidate picker.",
+      "Review the available options and select the quality you prefer.",
+      "Confirm the download and wait for the file to process through the extension.",
+      "Save the final MP4 file to your preferred location."
+    ],
+    "supported_formats": [
+      "Input: Direct MP4 URLs from video tags, page metadata, and performance resources; HLS streams from M3U8-style playlists exposed by the Pornwex player",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Pornwex viewers who want an in-browser personal saving workflow",
+      "Users who prefer browser extensions over external paste-box downloader sites",
+      "Anyone who needs to review available media options before downloading",
+      "Users who want organized downloads under a dedicated Pornwex folder"
+    ],
+    "use_cases": [
+      "Save a Pornwex video page for later personal viewing",
+      "Check whether the active Pornwex player exposes direct MP4 or HLS media",
+      "Run media detection from the same tab instead of pasting a URL elsewhere",
+      "Use a player button, popup, or context-menu path depending on what the page exposes",
+      "Download the highest available quality when multiple stream options are detected"
+    ],
+    "troubleshooting": [
+      "The extension does not show any detected media. Start playback first so the player exposes the stream. Some pages hide the media URL until the video is actively playing.",
+      "The player download button does not appear. Refresh the page and make sure the player has fully loaded. Try using the extension popup or right-click menu as an alternative entry point.",
+      "The download fails or stops mid-way. Check your internet connection and try again. Some streams may have segment loading issues that resolve on a second attempt.",
+      "The extension says no candidates found on a known video page. The page may use a media pattern outside the current detector. Try a different Pornwex video URL to confirm the extension is working.",
+      "I see a trial limit message. The extension includes 3 free downloads per device. Sign in with your email to activate the trial or purchase a license for unlimited use."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Pornwex page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Some Pornwex pages may expose only a single stream or no downloadable candidate",
+      "The current release is a generated candidate that requires real playback and extraction QA for full coverage verification"
+    ],
+    "about": [
+      "Pornwex is a video hosting platform that streams adult content through a dynamic player interface. Pornwex Downloader gives viewers a browser-based way to check the active page for downloadable media without leaving the tab they are already using."
+    ]
+  },
+  "serpx_link": "https://serpx.link/pornwex-downloader",
+  "github_topics": [
+    "pornwex-download",
+    "pornwex-downloader",
+    "pornwex-video-downloader",
+    "pornwex-video-downloader-online",
+    "pornwex-video-downloader-mac",
+    "pornwex-video-downloader-window",
+    "pornwex-video-downloader-free",
+    "pornwex-video-downloader-extension",
+    "pornwex-video-downloader-app",
+    "pornwex-video-downloader-chrome",
+    "pornwex-video-downloader-from-url",
+    "how-to-download-pornwex-videos",
+    "how-to-download-pornwex-videos-mac",
+    "how-to-download-pornwex-videos-windows",
+    "how-to-download-pornwex-videos-online",
+    "how-to-download-pornwex-videos-free",
+    "how-to-download-from-pornwex",
+    "how-to-download-videos-from-pornwex",
+    "download-pornwex-videos",
+    "pornwex-video-tutorial",
+    "save-pornwex-videos",
+    "pornwex-video-content-saver",
+    "how-to-download-pornwex-videos-for-free"
+  ],
+  "hashtags": [
+    "#PornwexDownload",
+    "#PornwexDownloader",
+    "#PornwexVideoDownloader",
+    "#PornwexVideoDownloaderOnline",
+    "#PornwexVideoDownloaderMac",
+    "#PornwexVideoDownloaderWindow",
+    "#PornwexVideoDownloaderFree",
+    "#PornwexVideoDownloaderExtension",
+    "#PornwexVideoDownloaderApp",
+    "#PornwexVideoDownloaderChrome",
+    "#PornwexVideoDownloaderFromURL",
+    "#HowToDownloadPornwexVideos",
+    "#HowToDownloadPornwexVideosMac",
+    "#HowToDownloadPornwexVideosWindows",
+    "#HowToDownloadPornwexVideosOnline",
+    "#HowToDownloadPornwexVideosFree",
+    "#HowToDownloadFromPornwex",
+    "#HowToDownloadVideosFromPornwex",
+    "#DownloadPornwexVideos",
+    "#PornwexVideoTutorial",
+    "#SavePornwexVideos",
+    "#PornwexVideoContentSaver",
+    "#HowToDownloadPornwexVideosForFree"
+  ],
+  "youtube_tags": [
+    "Pornwex Download",
+    "Pornwex Downloader",
+    "Pornwex Video Downloader",
+    "Pornwex Video Downloader Online",
+    "Pornwex Video Downloader Mac",
+    "Pornwex Video Downloader Window",
+    "Pornwex Video Downloader Free",
+    "Pornwex Video Downloader Extension",
+    "Pornwex Video Downloader App",
+    "Pornwex Video Downloader Chrome",
+    "Pornwex Video Downloader From URL",
+    "How To Download Pornwex Videos",
+    "How To Download Pornwex Videos Mac",
+    "How To Download Pornwex Videos Windows",
+    "How To Download Pornwex Videos Online",
+    "How To Download Pornwex Videos Free",
+    "How To Download From Pornwex",
+    "How To Download Videos From Pornwex",
+    "Download Pornwex Videos",
+    "Pornwex Video Tutorial",
+    "Save Pornwex Videos",
+    "Pornwex Video Content Saver",
+    "How To Download Pornwex Videos For Free"
+  ]
+}
